@@ -62,3 +62,6 @@ console.log(user.email)
 console.log(userTwo.email);
 
 
+// Stack => orginal value does't change
+// Heap => orginal value changed
+
