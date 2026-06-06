@@ -33,6 +33,22 @@ const myArr4 = [0,1,2,3,4,5,6]
 console.log("C" , myArr4.splice(1,4));
 console.log(myArr4);
 
+const marvel_heros = ["hero1", "hero2", "hero3"]
+const dc_heros = ["hero4", "hero5", "hero6"]
+
+const all_new_heros = [...marvel_heros, ...dc_heros]
+
+console.log(all_new_heros);
+
+
+const anotherArray = [1,2,3,[4,5,6,],7,[6,7,[4,5]]]
+
+const realAnotherArray = anotherArray.flat(Infinity)
+console.log(realAnotherArray)
+
+console.log(Array.isArray("Shivam"))
+console.log(Array.from("Shivam"))
+console.log(Array.from({name: "hitesh"})) // interesting
 
 
 
