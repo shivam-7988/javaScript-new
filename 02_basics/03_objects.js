@@ -1,0 +1,22 @@
+const tinderUser = new Object() // singleton object
+const tinderUser = {} // nonsingleton object
+
+tinderUser.id = "123abc"
+tinderUser.name = "Sammy"
+tinderUser.isloggedIn = false
+
+
+// console.log(tinderUser);
+
+const regularUser = {
+    email: "someemail@gmail.com",
+    fullName: {
+        userFullName: {
+            firstName: "Shivam",
+            lastName: "Hans"
+        }
+    }
+}
+
+
+console.log(regularUser.fullName.userFullName.firstName);
